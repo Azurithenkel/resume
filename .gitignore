@@ -1,0 +1,6 @@
+# Build Products
+
+*.aux
+*.log
+*.out
+*.pdf

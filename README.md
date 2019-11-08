@@ -1,3 +1,14 @@
+# Pre-reqs
+
+The templates require 
+
+texlive 
+texlive italian
+texlive supertabular
+texlive textpos
+
+and xetex packages.
+
 # Build Instructions
 
-pdftext cv.tex 
+xetext cv.tex
