@@ -1,2 +1,3 @@
-# resume
-Personal Resume
+# Build Instructions
+
+pdftext cv.tex 
