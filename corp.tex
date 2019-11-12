@@ -1,20 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Professional CV
-% LaTeX Template
-% Version 2.0 (8/5/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Trey Hunner (http://www.treyhunner.com/)
-%
-% Important note:
-% This template requires the resume.cls file to be in the same directory as the
-% .tex file. The resume.cls file provides the resume style used for structuring the
-% document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
@@ -25,100 +8,84 @@
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 
 \name{Tom\'{a}\v{s} Pila\v{r}} % Your name
-\address{15 Maio Road \\ Cambridge, CB4 2GA, United Kingdom} % Your address
+\address{21 St Bartholomew's Court \\ Cambridge, CB5 8JB, United Kingdom} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{+44 $\cdot$ 7531 $\cdot$ 784896  \\ t.pilar@warwick.ac.uk} % Your phone number and email
+\address{+44 $\cdot$ 7531 $\cdot$ 784896  \\ sir.integra@gmail.com} % Your phone number and email
 
 \begin{document}
 
-\begin{rSection}{IT Skills}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages & C/C++, Python\\
-OS competence & Linux (patch contributor), Windows, OSX \\
-Data Analysis & Mathematical Modelling, Multivariate Analysis, Big Data Handling\\
-Spoken Languages & Slovak, Czech, English (Bilingual), French (Intermediate), Italian (Elementary)
-\end{tabular}
-\end{rSection}
-
 \begin{rSection}{Employment History}
-\begin{rSubsection}{Solarflare Communications}{ June 2014 - Present } {Software Developer}{Cambridge, UK}
-\item Maintained the Linux driver for the ultra-low latency network adapter (flagship product) - In the past two years we implemented key cutting edge features like virtualization and overlay networking.
-\item I thoroughly benchmarked and investigated numerous performance criteria of our driver as compared with leading competitors
-\item Experienced in continuous delivery facilitated by agile methodology and rigorous automation
-\item Designed and implemented complex automated test harness for the Web UI 
-\item Pioneered the continuous integration regression testing system
-\end{rSubsection}
+  \begin{rSubsection}{Xilinx Inc.}{ July 2019 - Present } {Staff Software Engineer}{Cambridge, UK}
+    \item UEFI Technical Lead
+  \end{rSubsection}
+
+  \begin{rSubsection}{Solarflare Communications}{ June 2017 - July 2019 } {Senior Software Developer}{Cambridge, UK}
+    \item UEFI Driver Developer
+  \end{rSubsection}
+
+  \begin{rSubsection}{Solarflare Communications}{ June 2014 - Present } {Software Developer}{Cambridge, UK}
+    \item Maintained the Linux driver for the ultra-low latency network adapter (flagship product) - In the past two years we implemented key cutting edge features like virtualization and overlay networking.
+    \item I thoroughly benchmarked and investigated numerous performance criteria of our driver as compared with leading competitors
+    \item Experienced in continuous delivery facilitated by agile methodology and rigorous automation
+    \item Designed and implemented complex automated test harness for the Web UI
+    \item Pioneered the continuous integration regression testing system
+  \end{rSubsection}
 \end{rSection}
 
-\begin{rSection}{Language experience}
-C
-\begin{itemize}
-\item Maintaininer the SFC Linux driver (team of 8)
-\item Contributor to the Red Hat in-tree sfc driver
-\item Forked and significantly improved a http benchmarking tool for the sfc driver performance analysis
-\end{itemize}
-C++
-\begin{itemize}
-\item Designed and implemnted the analysis packages based on the ROOT library for Particle Physics
-\item Developed multivariate regression models for MC efficiency analysis
-\item Ported EvtGen MC generator from FORTRAN to C++ (team of 4 maintainers)
-\end{itemize}
-Python
-\begin{itemize}
-\item Maintained and developed the complete automated deployment and testing solution for SFC network adapters. 
-\item Synchronised the EvtGen Master Decay Table with the world average values (semantic parsing of over 10k lines of inconsistently formatted data)
-\item Built the EvtGen website using WGSI and Django - focus on DevOps
-\item Built automated validation tools for the DecFiles package, singificantly smoothing the maintainance 
-\end{itemize}
+\begin{rSection}{Language Competencies}
+  C
+  \begin{itemize}
+    \item Maintaininer the SFC Linux driver (team of 8)
+    \item Contributor to the Red Hat in-tree sfc driver
+    \item Forked and significantly improved a http benchmarking tool for the sfc driver performance analysis
+  \end{itemize}
+  Python
+  \begin{itemize}
+    \item Maintained and developed the complete automated deployment and testing solution for SFC network adapters.
+    \item Synchronised the EvtGen Master Decay Table with the world average values (semantic parsing of over 10k lines of inconsistently formatted data)
+    \item Built the EvtGen website using WGSI and Django - focus on DevOps
+    \item Built automated validation tools for the DecFiles package, singificantly smoothing the maintainance
+  \end{itemize}
+  C++
+  \begin{itemize}
+    \item Designed and implemnted the analysis packages based on the ROOT library for Particle Physics
+    \item Developed multivariate regression models for MC efficiency analysis
+    \item Ported EvtGen MC generator from FORTRAN to C++ (team of 4 maintainers)
+  \end{itemize}
 \end{rSection}
+
+\begin{rSection}{Other Skills}
+  \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Spoken Languages   & Slovak, Czech, English (Bilingual), French (Intermediate), Italian (Elementary) \\
+    Mangement Software & JIRA, Bugzilla, Reviewboard \\
+    Version Control    & Git and Mercurial \\
+  \end{tabular}
+\end{rSection}
+
 %----------------------------------------------------------------------------------------
 %	POSITIONS OF RESPONSIBILITY
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Positions of Responsibility}
-\begin{rSubsection}{GAUSS Monte Carlo Simulation Group}{ October 2011 - June 2014
-  }{Decay Files repository manager}{LHCb Collaboration, CERN}
-\item Organized and managed a database of user configuration files (userbase of ~700 users)
-\item Developed tools that automated the validation of new
-  configuration files leading to significant reduction in
-  complexity for new users.
-\end{rSubsection}
+  \begin{rSubsection}{GAUSS Monte Carlo Simulation Group}{ October 2011 - June 2014}{Decay Files repository manager}{LHCb Collaboration, CERN}
+    \item
+  \end{rSubsection}
 
-\newpage
+  \begin{rSubsection}{EvtGen Development Group}{ October 2010 - June 2014 }{Development and technical support}{University of Warwick, UK}
+    \item
+  \end{rSubsection}
 
-\begin{rSubsection}{EvtGen Development Group}{ October 2010 - June 2014 }{Development and technical support}{University of Warwick, UK}
-\item Updated the master configuration for EvtGen heavy flavour
-  generator listing every decay mode of every known particle
-\item Developed automation tools that reduced the length of the
-  regular update from 6 months to 2 weeks.
-\item Commissioned and administrated the communications server and the hosted webpage (evtgen.warwick.ac.uk).
-\end{rSubsection}
+  \begin{rSubsection}{LHCb UK Student Group}{ June 2012 - December 2012 }{Convener}{LHCb Collaboration, CERN}
+    \item
+  \end{rSubsection}
 
-\begin{rSubsection}{LHCb UK Student Group}{ June 2012 - December 2012 }{Convener}{LHCb Collaboration, CERN}
-\item Convened and organized talks for an LHCb CERN based group providing introductory and advanced talks aimed at PhD Students doing an internship at CERN.
-\end{rSubsection}
+  \begin{rSubsection}{University of Warwick Computing Society}{ February 2007 - January 2009 }{Co-President (Dual Presidency)}{University of Warwick, UK}
+   \item
+  \end{rSubsection}
 
-\begin{rSubsection}{University of Warwick Computing Society}{ February 2007 - January 2009 }{Co-President (Dual Presidency)}{University of Warwick, UK}
-\item Presided over active society with both academic and leisure interests, very good IT equipment, provides technical services for majority of other student societies at university.
-\item The society counted $\sim$ 150 members, during my term the society acquired significant amount of leisure equipment for weekly social gatherings.
-\item Greatly enhanced the library of software available for weekly gatherings (including porting of non-native software to Linux).
-\item Organized LAN parties for ~60 people six times a
-  year.
-\item Restructured the executive commitee to better run the society -
-  introduced the dual presidency principle.
-\end{rSubsection}
-
-\begin{rSubsection}{Warwick Conferences}{ June 2008 - September 2009
-  }{Conference Assistant}{Warwick Conferences, Coventry}
-\item Facilitated the smooth running of conferences with a team of
-  assistants, providing back-end support to organizers with rooms,
-  furniture, AV, logistics etc.
-\item As Lead Conference Assistant, I managed several teams that
-  facilitated conferences, the largest being a team of 9 conference
-  assistants for a 1300
-  delegate convention, requiring excellent communication with the
-  organizers throughout the event
-\end{rSubsection}
+  \begin{rSubsection}{Warwick Conferences}{ June 2008 - September 2009}{ Lead Conference Assistant}{Warwick Conferences, Coventry}
+   \item
+  \end{rSubsection}
 
 \end{rSection}
 
@@ -127,40 +94,28 @@ Python
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
-{\bf University of Warwick, UK} \hfill {October 2010 - Present} \\
-PhD in Physics\\
-Focus on Particle Physics, Thesis on analysing data from LHCb to
-extract Standard Model parameters\\
-Strong focus on manthematical modelling and Big Data analysis
-The study included a concurrent course on Transferrable Doctoral Skills \\
-Spent 14 months in CERN on a Long Term Attachment
+  {\bf University of Warwick, UK} \hfill {October 2010 - June 2014} \\
+  PhD in Particle Physics \\
+  Thesis on analysing data from LHCb to extract Standard Model parameters\\
+  Transferrable Doctoral Skills Course \\
+  Long Term Attachments in CERN, Geneva (14 months)
 
-{\bf University of Warwick, UK} \hfill {October 2006 - June 2010} \\
-MMathPhys upper second class with honors (2.1)\\
-Fourth year focus on Particle Physics with a project on Charm Mixing\\
-General areas of study include but not limited to: Mathematical
-Analysis, Linear Algegra, Statistical methods, Scientific Programming
+  {\bf University of Warwick, UK} \hfill {October 2006 - June 2010} \\
+  MMathPhys (2.1)
+  
+  {\bf BASG Milana Hodzu, Sucany, Slovakia} \hfill {October 2001 - June 2006} \\
+  A-level equivalent (AAAABB)
 \end{rSection}
+
 %----------------------------------------------------------------------------------------
 %       INTERESTS AND HOBBIES
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Hobbies}
-Science fiction and fantasy \\
-Board games (founded the Solarflare Communications Board Games Society) \\
-Literature, Travelling \\
-Competitive team computer games \\
+  Board games and computer games
+  Field improv \\
+  Literature, Travelling \\
 \end{rSection}
-
-%----------------------------------------------------------------------------------------
-%        RESEARCH INTERESTS
-%----------------------------------------------------------------------------------------
-
-%\begin{rSection}{Research Interests}
-%{\bf Charm physics} \hfill {\bf Monte Carlo production} \\
-%Big Data analysis and modelling \hfill Simulation optimization \\
-%Multivariate analysis and Deep Learning \hfill MC generators \\
-%\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	CONFERENCES AND PUBLICATIONS
@@ -168,20 +123,20 @@ Competitive team computer games \\
 
 \begin{rSection}{Conferences and Publications}
 
-{\bf Charm mixing in $D^{0}\rightarrow K_{S}\pi\pi$ at LHCb}\hfill{June 2014}\\
-{\it https://cds.cern.ch/record/2008671?ln=en}\hfill{\it University of Warwick}
+  {\bf Charm mixing in $D^{0}\rightarrow K_{S}\pi\pi$ at LHCb}\hfill{June 2014}\\
+  {\it https://cds.cern.ch/record/2008671?ln=en}\hfill{\it University of Warwick}
 
-{\bf Model-independent measurement of mixing parameters in $D^{0}\rightarrow K_{S}\pi\pi$ decays}\hfill{April 2016}\\
-{\it http://link.springer.com/article/10.1007\%2FJHEP04\%282016\%29033}\hfill{\it Journal of High Energy Physics}
+  {\bf Model-independent measurement of mixing parameters in $D^{0}\rightarrow K_{S}\pi\pi$ decays}\hfill{April 2016}\\
+  {\it http://link.springer.com/article/10.1007\%2FJHEP04\%282016\%29033}\hfill{\it Journal of High Energy Physics}
 
-%------------------------------------------------
+  %------------------------------------------------
 
-{\bf Charm mixing and CP violation at LHCb}\hfill{\ May 2013}\\
-{\it Large Hadron Collider Physics Conference}\hfill{\it Barcelona, Spain}
-%------------------------------------------------
+  {\bf Charm mixing and CP violation at LHCb}\hfill{\ May 2013}\\
+  {\it Large Hadron Collider Physics Conference}\hfill{\it Barcelona, Spain}
+  %------------------------------------------------
 
-{\bf Measuring charm mixing using a model-independent technique in $D^{0} \rightarrow K_{S}hh$}\hfill{ April 2013}\\
-{\it Institute of Physics HEP Conference}\hfill{\it Liverpool, UK}
+  {\bf Measuring charm mixing using a model-independent technique in $D^{0} \rightarrow K_{S}hh$}\hfill{ April 2013}\\
+  {\it Institute of Physics HEP Conference}\hfill{\it Liverpool, UK}
 
 \end{rSection}
 %----------------------------------------------------------------------------------------
