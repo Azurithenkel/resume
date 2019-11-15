@@ -3,7 +3,7 @@
 *.aux
 *.log
 *.out
-*.pdf
+
 *.fdb*
 *.sync*
 *.xdv
